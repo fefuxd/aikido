@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+	
+
+body{
+	margin:0!important;
+	padding:0!important;
+	background-image:none;!important;
+	background-color:#fff;!important;
+}
+
+main {
+	margin:0;!important;
+	padding:0;!important;
+	background-color:#fff;!important;
+	width:1000px!important;
+	height: 800px!important;	
+	
+}
+
+
+
+#menu, header, footer, nav, form, .subtitulo, .nomeUnidade {
+    display:none;
+}
+
+
+.subir {
+	margin-top: -120px;	
+}
+
+#ficha {
+	width: 1000px!important;;
+	height: 50px!important;;	
+	
+}
+
+#ficha tr td {
+    background-color: #fff;
+	border: 1px solid #000;
+	font-size: 15px;
+	
+}
+
+
+
+

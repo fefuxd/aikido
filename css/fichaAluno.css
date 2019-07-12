@@ -1,0 +1,50 @@
+#ficha {
+	border: 1px solid #000;
+	
+	
+	
+}
+
+#ficha tr td {
+    background-color: #fff;
+	border: 1px solid #000;
+	
+}
+
+b {
+	font-weight:600;	
+	
+}
+
+#ficha td {
+	padding-left: 5px;
+	
+}
+
+
+.fotoperfil {
+	width: 150px;
+	height: 200px;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	left: 50%;
+	position:relative;
+	transform: translateX(-50%);
+	margin-top: 20px;
+    background-image: url(../assets/imagens/fundo-foto.png);
+	
+}
+
+
+.fotoperfil img{
+	width: 150px;
+	height: 200px;
+	
+}
+
+.titulo {
+	color: #000;
+	font-size:25px;
+	font-weight:500;
+		
+}

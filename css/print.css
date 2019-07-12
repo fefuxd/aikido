@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+	
+@page {
+	size: landscape;
+	  }
+
+
+body{
+	margin:0!important;
+	padding:0!important;	
+}
+
+
+
+#menu, header, footer, nav, form, .subtitulo, .nomeUnidade {
+    display:none;
+}
+
+
+#tabelaRelatorio {
+	margin-top: -100px;
+	width:1550px!important;
+	
+	
+	
+}
+
+#tabelaRelatorio tr th,
+#tabelaRelatorio tr td{
+	font-size:9px!important;	
+}
+
+
+
+/* Itens necessarios para imprimir */
+
+
+/* Nome do aluno */
+#tabelaRelatorio tr th:nth-child(1),
+#tabelaRelatorio tr td:nth-child(1){
+width: 200px!important;
+}
+
+/* Data de nascimento */
+#tabelaRelatorio tr th:nth-child(3),
+#tabelaRelatorio tr td:nth-child(3){
+width: 60px!important;	
+}
+
+/* Unidade */
+#tabelaRelatorio tr th:nth-child(6),
+#tabelaRelatorio tr td:nth-child(6){
+width: 180px!important;
+}
+
+/* Nome do responsável */
+#tabelaRelatorio tr th:nth-child(8),
+#tabelaRelatorio tr td:nth-child(8){
+width: 200px!important;
+}
+
+/* CPF do responsável */
+#tabelaRelatorio tr th:nth-child(10),
+#tabelaRelatorio tr td:nth-child(10){
+width: 65px!important;	
+}
+
+/* CPF */
+#tabelaRelatorio tr th:nth-child(12),
+#tabelaRelatorio tr td:nth-child(12){
+width: 65px!important;
+}
+
+/* Endereço */
+#tabelaRelatorio tr th:nth-child(13),
+#tabelaRelatorio tr td:nth-child(13){
+width: 290px!important;	
+}
+
+/* Bairro */
+#tabelaRelatorio tr th:nth-child(14),
+#tabelaRelatorio tr td:nth-child(14){
+width: 110px!important;	
+}
+
+/* CEP */
+#tabelaRelatorio tr th:nth-child(15),
+#tabelaRelatorio tr td:nth-child(15){
+width: 65px!important;	
+}
+
+/* CIDADE / ESTADO */
+#tabelaRelatorio tr th:nth-child(16),
+#tabelaRelatorio tr td:nth-child(16){
+width: 150px!important;	
+}
+
+
+
+
+/* Fim dos itens necessarios para imprimir */
+
+
+
+
+
+/* Itens que NÃO são necessarios no modelo para impressão */
+#tabelaRelatorio tr th:nth-child(2),
+#tabelaRelatorio tr td:nth-child(2){
+display:none!important;
+width: 0px!important;	
+}
+#tabelaRelatorio tr th:nth-child(4),
+#tabelaRelatorio tr td:nth-child(4){
+display:none!important;
+width: 0px!important;	
+}
+#tabelaRelatorio tr th:nth-child(5),
+#tabelaRelatorio tr td:nth-child(5){
+display:none!important;
+width: 0px!important;	
+}
+#tabelaRelatorio tr th:nth-child(7),
+#tabelaRelatorio tr td:nth-child(7){
+display:none!important;
+width: 0px!important;	
+}
+#tabelaRelatorio tr th:nth-child(9),
+#tabelaRelatorio tr td:nth-child(9){
+display:none!important;	
+width: 0px!important;
+}
+#tabelaRelatorio tr th:nth-child(11),
+#tabelaRelatorio tr td:nth-child(11){
+display:none!important;
+width: 0px!important;	
+}
+#tabelaRelatorio tr th:nth-child(17),
+#tabelaRelatorio tr td:nth-child(17){
+display:none!important;	
+width: 0px!important;
+}
+#tabelaRelatorio tr th:nth-child(18),
+#tabelaRelatorio tr td:nth-child(18){
+display:none!important;
+width: 0px!important;	
+}
+#tabelaRelatorio tr th:nth-child(19),
+#tabelaRelatorio tr td:nth-child(19){
+display:none!important;
+width: 0px!important;	
+}
+/* Fim dos Itens que NÃO são necessarios no modelo para impressão */
+
